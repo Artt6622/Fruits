@@ -1,0 +1,69 @@
+/* RKA */
+@keyframes rka {
+    from {
+        left: 0%;
+        opacity: 1;
+    }
+    to{
+        left: 18%;
+        opacity: 0;
+    }
+}
+
+/* End RKA */
+
+/* Chan */ 
+@keyframes chan {
+    from {
+   
+    width: 56%;
+    height: 50px;
+    top: 25%;
+    }
+    to {
+    width: 56%;
+    height: 2px;
+    top: 86%;
+    }
+}
+
+
+/* Chan End */ 
+
+/* Bus */
+@keyframes bus {
+    from {
+        left: 20%;
+        opacity: 1;
+    }
+    to{
+        left: 60%;
+        opacity: 0;
+    }
+}
+
+/* End Bus */
+
+#myord {
+    animation-name: ord;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+}
+@keyframes ord {
+    from {
+        left: 0%;
+    }
+    to {
+        left: 20%;
+    }
+}
+
+@keyframes sp {
+    from {
+        top: 0%;
+    }
+    to {
+        top: 50%;
+    }
+}
